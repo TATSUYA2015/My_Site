@@ -25,6 +25,12 @@
     background-color: #EC715F;
   }
 
+  .header-group{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .nav{
     display: flex;
     list-style: none;
@@ -33,6 +39,7 @@
   .nav-list{
     font-size: 16px;
     color: #FAFAFA;
+    padding: 30px;
   }
 
   a{
