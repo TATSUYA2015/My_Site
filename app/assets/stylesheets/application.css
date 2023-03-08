@@ -24,4 +24,17 @@
     height: 70px;
     background-color: #EC715F;
   }
-  
+
+  .nav{
+    display: flex;
+    list-style: none;
+  }
+
+  .nav-list{
+    font-size: 16px;
+    color: #FAFAFA;
+  }
+
+  a{
+    text-decoration: none;
+  }
