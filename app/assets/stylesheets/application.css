@@ -18,7 +18,11 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-  }
+ }
+
+ a{
+   text-decoration: none;
+ }
 
   header{
     height: 70px;
@@ -26,27 +30,40 @@
     background-color: #EC715F;
   }
 
-  .header-group{
-    height: 70px;
+  .container{
     width: 1024px;
+    margin: 0 auto;
+  }
+
+  .header-group{
     display: flex;
     justify-content: space-between;
+    font-size: 0;
+  }
+
+  .logo{
+    height: 70px;
+  }
+
+  nav{
+    display: block;
   }
 
   .nav{
     display: flex;
-    height: 70px;
-    list-style: none;
   }
 
   .nav-list{
+    height: 120px;
+    line-height: 70px;
+    padding: 0 30px;
     font-size: 16px;
+    list-style: none;
     color: #FAFAFA;
-    padding: 30px;
   }
 
-  a{
-    text-decoration: none;
+  .nav-list a {
+    color: #FFFFFF;
   }
 
   #mv{
