@@ -179,8 +179,14 @@
     padding: 10px 0;
     font-size: 20px;
   }
-  
+
   .strength-text{
     text-align: left;
     font-size: 16px;
   }
+
+  /*.fa-code:before{*/
+  /*  content: "\f121";*/
+  /*}*/
+  
+  
