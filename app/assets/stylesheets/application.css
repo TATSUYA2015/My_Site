@@ -185,8 +185,37 @@
     font-size: 16px;
   }
 
-  /*.fa-code:before{*/
-  /*  content: "\f121";*/
-  /*}*/
-  
-  
+  #profile{
+    background-color: #ECEFF1;
+  }
+
+  .profile-group{
+    display: flex;
+    padding: 30px 0 90px 0;
+  }
+
+  .left-content{
+    width: 50%;
+  }
+
+  .right-content{
+    width: 50%;
+  }
+
+  .my-face{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image:  url(my-icon.jpg);
+  }
+
+  .description-title{
+    margin: 20px 0 5px 0;
+    font-size: 20px;
+  }
+
+  .description-text{
+    font-size: 16px;
+    color: #000000;
+  }
