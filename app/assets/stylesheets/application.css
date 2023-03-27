@@ -294,3 +294,20 @@
         padding-top: 10px;
       }
     }
+
+    @media screen and (max-width:767px){
+      .production-group{
+        width: 300px;
+      }
+
+    @media screen and (max-width:767px){
+      .production{
+        margin-right: 0px;
+      }
+    }
+
+    @media screen and (max-width:767px){
+      .sp-none{
+        display: none;
+      }
+    }
