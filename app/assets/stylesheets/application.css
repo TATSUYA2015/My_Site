@@ -311,3 +311,11 @@
         display: none;
       }
     }
+
+
+    @media screen and (max-width:767px){
+      .strength-group{
+        flex-flow: row wrap;
+        width: 320px;
+      }
+    }
