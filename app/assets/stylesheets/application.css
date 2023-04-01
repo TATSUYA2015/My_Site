@@ -319,3 +319,22 @@
         width: 320px;
       }
     }
+
+    @media screen and (max-width:767px){
+      .profile-group{
+        flex-flow: row wrap;
+        text-align: center;
+      }
+    }
+
+    @media screen and (max-width:767px){
+      .left-content{
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width:767px){
+      .right-content{
+        width: 100%;
+      }
+    }
